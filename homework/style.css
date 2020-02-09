@@ -1,0 +1,32 @@
+h3 {
+    font-style: italic;
+}
+h1 {
+    font-family: Sacramento;
+    font-size: 3em;
+    color: purple;
+    /* #62929e love this color */
+    height: 50px;
+    width: 50%;
+}
+body {
+    font-family: Inconsolata;
+    color: #393d3f;
+}
+ul {
+    list-style-type: circle;
+}
+section {
+    height: 100%;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+html {
+    background-color: #fdfdff;
+    padding-left: 10px;
+}
+header {
+    width: 50%;
+    height: 100%;
+}
