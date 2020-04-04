@@ -3,90 +3,92 @@
     <head>
         <title>Izzy's Resume</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     </head>
     <body>
     <main>
         <header>
-            <nav>
-                <a href="index-homepage.html">Home</a>
-                <a href="index-resume.html">Resume</a>
-                <a href="index-portfolio.html">Portfolio</a>
-                <a href="">Contact Me</a>
+            <nav class="nav-all">
+                <a href="index-homepage.html">Home.</a>
+                <a href="index-resume.html">Resume.</a>
+                <a href="index-portfolio.html">Portfolio.</a>
+                <a href="">Contact Me.</a>
             </nav>
-            <h1>Izzy Bartling</h1>
-            <h2>Aspiring Journalist & Web Designer</h2>
+            <div class="heading-a">
+                <h1>Izzy Bartling.</h1>
+                <h2 style="font-weight:300; margin-top:-0.5em;">Aspiring Web Designer & Journalist</h2>
+            </div>
         </header>
-            <section>
-            <h3>Experience</h3>
 
-                <article>
-                    <h4><a href="https://www.suglobalists.com/">Globalists</a>, Syracuse, NY</h4>
-                    <dl>
-                        <dt>Copy Editor | Spring 2020 - Present</dt>
-                            <dd>Revise all grammatical and stylistic errors for each story based on most recent AP Stylebook</dd>
-                            <dd>Perform thorough fact checks and research to ensure the utmost accuracy of stories, using reliable sources</dd>
-                            <dd>Communicate effectively with writers to provide quality feedback and work through edits together</dd>
-                    </dl>
-                </article>
-                
-                <article>
-                    <h4><a href="http://dailyorange.com/">The Daily Orange</a>, Syracuse, NY</h4>
-                    <dl>
-                        <dt>Staff Writer and Reporter, Feature Section | Fall 2018 - Present</dt>
-                            <dd>Conduct interviews and compose lifestyle and entertainment articles about musicians, restaurants, theater productions, art galleries, and more for both digital and print platforms</dd>
-                    </dl>
-                    <dl>
-                        <dt>Assistant Feature Digital Editor | May 2019 - December 2019</dt>
-                            <dd>Prepared and pitched graphic ideas for digital stories, created copy for Twitter and Facebook posts</dd>
-                            <dd>Generated attention-grabbing headlines based on keywords and main ideas of each story</dd>
-                    </dl>
-                </article>
-
-                <article>
-                    <h4><a href="https://www.usajapan.org/">Japan Society of Northern California</a>, San Francisco, CA</h4>
-                    <dl>
-                        <dt>Digital Marketing Specialists | August 2019 - Present</dt>
-                            <dd>Design relevant, informative graphics and posters for JSNC programs using Adobe InDesign and Canva</dd>
-                            <dd>Manage JSNC and Innovation Awards (usjinnovate.org) websites to provide quality info and user experience</dd>
-                            <dd>Craft and launch an event page on WordPress for each JSNC program, including keywords for SEO</dd>
-                    </dl>
-                    <dl>
-                        <dt>Multimedia Intern | May 2019 - August 2019</dt>
-                            <dd>Designed posters and graphics using Illustrator and Canva to post on website and display at events</dd>
-                            <dd>Created social posts for Twitter and Facebook, prepared e-blasts and bi-weekly newsletters using Mailchimp</dd>
-                            <dd>Assisted with coordination of JSNC networking events around San Francisco</dd>
-                    </dl>
-                </article>
+            <section class="flex-container" style="flex-direction:row;">
+                <div class="flex-row">
+                    <h3 class="resume">Education.</h3>
+                        <article>
+                        <h4>S.I. Newhouse School of Public Communications; Syracuse University</h4>
+                            <ul class="a">
+                                <li>Bachelor of Science: Magazine Journalism | December 2021</dd>
+                                <li>Minor: Information Management and Technology</li>
+                                <li>GPA 3.85, Dean's List</li>
+                            </ul>
+                        </article>
+                </div>
+                <div class="flex-row">
+                    <h3 class="resume">Skills.</h3>
+                        <article>
+                            <ul class="a">
+                                <li>Languages: French (fluent)</li>
+                                <li>Programming: HTML, CSS, WordPress, Mailchimp, Eventbrite</li>
+                                <li>Social: Instagram, YouTube, Facebook, Twitter, Pinterest, LinkedIn</li>
+                                <li>Creative Software: Adobe InDesign, Photoshop, Illustrator, Premiere, Audition</li>
+                            </ul>
+                        </article>
+                </div>
             </section>
+            <section class="flex-container">
+                <div class="flex-row" style="flex-direction:column;">
+                    <h3 class="resume">Experience.</h3>
 
-            <section>
-            <h3>Education</h3>
+                        <article>
+                            <h4><a href="https://www.suglobalists.com/">Globalists</a>, Syracuse, NY</h4>
+                                <p>Copy Editor | Spring 2020 - Present</p>
+                                <ul class="a">
+                                    <li>Revise all grammatical and stylistic errors for each story based on most recent AP Stylebook</li>
+                                    <li>Perform thorough fact checks and research to ensure the utmost accuracy of stories, using reliable sources</li>
+                                    <li>Communicate effectively with writers to provide quality feedback and work through edits together</li>
+                                </ul>
+                        </article>
+                        
+                        <article>
+                            <h4><a href="http://dailyorange.com/">The Daily Orange</a>, Syracuse, NY</h4>
+                            <p>Staff Writer and Reporter, Feature Section | Fall 2018 - Present</p>
+                            <ul class="a">
+                                    <li>Conduct interviews and compose lifestyle and entertainment articles about musicians, restaurants, theater productions, art galleries, and more for both digital and print platforms</li>
+                            </ul>
+                            <p>Assistant Feature Digital Editor | May 2019 - December 2019</p>
+                            <ul class="a">
+                                    <li>Prepared and pitched graphic ideas for digital stories, created copy for Twitter and Facebook posts</li>
+                                    <li>Generated attention-grabbing headlines based on keywords and main ideas of each story</li>
+                            </ul>
+                        </article>
 
-                <article>
-                    <dl>
-                        <dt>S.I. Newhouse School of Public Communications; Syracuse University</dt>
-                            <dd>Bachelor of Science: Magazine Journalism | December 2021</dd>
-                            <dd>Minor: Information Management and Technology</dd>
-                            <dd>GPA 3.85, Dean's List</dd>
-                    </dl>
-                </article>
+                        <article>
+                            <h4><a href="https://www.usajapan.org/">Japan Society of Northern California (JSNC)</a>, San Francisco, CA</h4>
+                            <p>Digital Marketing Specialists | August 2019 - Present</p>
+                                <ul class="a">
+                                    <li>Design relevant, informative graphics and posters for JSNC programs using Adobe InDesign and Canva</li>
+                                    <li>Manage JSNC and Innovation Awards (usjinnovate.org) websites to provide quality info and user experience</li>
+                                    <li>Craft and launch an event page on WordPress for each JSNC program, including keywords for SEO</li>
+                                </ul>
+                            <p>Multimedia Intern | May 2019 - August 2019</p>
+                                <ul class="a" style="margin-bottom:100px;">
+                                    <li>Designed posters and graphics using Illustrator and Canva to post on website and display at events</li>
+                                    <li>Created social posts for Twitter and Facebook, prepared e-blasts and bi-weekly newsletters using Mailchimp</li>
+                                    <li>Assisted with coordination of JSNC networking events around San Francisco</li>
+                                </ul>
+                        </article>
+                    </div>
             </section>
-
-            <section>
-            <h3>Skills</h3>
-
-                <article>
-                    <ul>
-                        <li>Languages: French (fluent)</li>
-                        <li>Programming: HTML, CSS, WordPress, Mailchimp, Eventbrite</li>
-                        <li>Social: Instagram, YouTube, Facebook, Twitter, Pinterest, LinkedIn</li>
-                        <li>Creative Software: Adobe InDesign, Photoshop, Illustrator, Premiere, Audition</li>
-                    </ul>
-                </article>
-            </section>
+<!--I'm planning on adding a footer section.-->
         </main>
-        <footer>
-            <p>Contact information: <a href="mailto:icbartli@syr.edu">icbartli@syr.edu</a>.</p>
-        </footer>
     </body>
 </html>
