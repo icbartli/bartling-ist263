@@ -3,68 +3,95 @@
     <head>
         <title>Izzy's Portfolio</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
             <header>
-                <nav>
-                    <a href="index-homepage.html">Home</a>
-                    <a href="index-resume.html">Resume</a>
-                    <a href="index-portfolio.html">Portfolio</a>
-                    <a href="">Contact Me</a>
+                <nav class="nav-all">
+                    <a href="index-homepage.html">Home.</a>
+                    <a href="index-resume.html">Resume.</a>
+                    <a href="index-portfolio.html">Portfolio.</a>
+                    <a href="">Contact Me.</a>
                 </nav>
             </header>
+            
             <section>
-            <h1>Recent Bylines</h1>
-                <div>
-                    <!--Below will be a gallery with images that link to articles I've written.-->
-                    <div>
-                        <a href="http://dailyorange.com/2020/02/jazz-artists-perform-share-perspectives-genre/">
-                            <img src="images/jazz-panel.png" alt="Syracuse jazz musicians"></a>
-                        <h2>Jazz artists perform, share perspectives on the genre</h2>
+            <h1 class="flex-container" style="padding:20px;">Izzy's Collection of Work.</h1>
+                <div class="flex-container">
+                    <div class="flex-row">
+                        <img src="images/jazz-panel-square.png" alt="Syracuse jazz musicians">
+                        <h3>Jazz artists perform, share perspectives on the genre</h3>
+                        <p class="date">February 25, 2020</p>
+                        <p>In a master class Monday, two jazz musicians said the genre of music was often misunderstood, but carried a deep history and flexible meaning.</p>
+                        <a href="http://dailyorange.com/2020/02/jazz-artists-perform-share-perspectives-genre/" target="_blank"><button type="button" class="button">Read More.</button></a>
                     </div>
-                    <div>
-                        <a href="https://www.suglobalists.com/articles/2020/2/17/study-abroad-uncertainty?rq=izzy">
-                            <img src="images/uncertain-times-study-abroad.png" alt="Girl in the sky illustration"></a>
-                        <h2>Braving A World of Uncertainty Abroad</h2>
+                    <div class="flex-row">
+                            <img src="images/study-abroad-square.png" alt="Girl in the sky illustration">
+                        <h3>Braving A World of Uncertainty Abroad</h3>
+                        <p class="date">February 17, 2020</p>
+                        <p>In a time of escalating global uncertainty regarding health, safety and politics, students have become increasingly uneasy about their plans to study abroad. However, many students from Syracuse University decided to brave the storm and experience this unrest for themselves while studying abroad last semester.</p>
+                        <a href="https://www.suglobalists.com/articles/2020/2/17/study-abroad-uncertainty?rq=izzy" target="_blank"><button type="button" class="button">Read More.</button></a>
                     </div>
-                    <div>
-                        <a href="https://www.suglobalists.com/articles/2020/unity-equity-and-heroes-with-wings?rq=izzy">
-                        <img src="images/mlk-su-celebration.jpg" alt="Raphael Warnock speaking"></a>
-                        <h2>Unity, Equity and Heroes with Wings</h2>
+                    <div class="flex-row">
+                        <img src="images/warnock-square.png" alt="Raphael Warnock speaking">
+                        <h3>Unity, Equity and Heroes with Wings</h3>
+                        <p class="date">January 29, 2020</p>
+                        <p>Dr. King’s voice reverberated throughout the Carrier Dome as the community gathered for the 35th Annual Celebration of Dr. Martin Luther King Jr., bringing the audience back to his 1965 speech at Sims Hall.</p>
+                        <a href="https://www.suglobalists.com/articles/2020/unity-equity-and-heroes-with-wings?rq=izzy" target="_blank"><button type="button" class="button">Read More.</button></a>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <a href="http://dailyorange.com/2020/01/olivia-chindamo-jazz-vocalist-australia-will-headline-jazzfest-2020/">
-                            <img src="images/jazzfest-2020.png" alt="jazz musicians illustration"></a>
-                        <h2>Olivia Chindamo, jazz vocalist from Australia, will headline JazzFest 2020</h2>
+                <div class="flex-container">
+                    <div class="flex-row">
+                            <img src="images/jazzfest-square.png" alt="jazz musicians illustration">
+                        <h3>Olivia Chindamo, jazz vocalist from Australia, will headline JazzFest 2020</h3>
+                        <p class="date">January 22, 2020</p>
+                        <p>Acoustic swing, cabaret and funk melodies will fill the numerous rooms and corridors of Mohegan Manor, a historic, multi-story building in Baldwinsville, New York on Sunday, Jan. 26.</p>
+                        <a href="http://dailyorange.com/2020/01/olivia-chindamo-jazz-vocalist-australia-will-headline-jazzfest-2020/" target="_blank"><button type="button" class="button">Read More.</button></a>
                     </div>
-                    <div>
-                        <a href="http://dailyorange.com/2019/12/syracuse-stage-brings-disneys-beauty-beast-life">
-                            <img src="images/beauty-and-the-beast.png" alt="Beauty and the Beast performance photo"></a>
-                        <h2>Syracuse Stage brings 'Disney's Beauty and the Beast' to life</h2>
+                    <div class="flex-row">
+                            <img src="images/beauty-square.png" alt="Beauty and the Beast performance photo">
+                        <h3>Syracuse Stage brings 'Disney's Beauty and the Beast' to life</h3>
+                        <p class="date">December 1, 2019</p>
+                        <p>Stephanie Craven was 9 years old when she discovered “Beauty and the Beast.” As a child, she would cry to her mother about not being blonde-haired and blue-eyed to fit the princess standard.</p>
+                        <a href="http://dailyorange.com/2019/12/syracuse-stage-brings-disneys-beauty-beast-life" target="_blank"><button type="button" class="button">Read More.</button></a>  
                     </div>
-                    <div>
-                        <a href="http://dailyorange.com/2019/11/songwriter-hughie-stone-fish-spotlights-people-syracuse-music-video/">
-                            <img src="images/hughie-stonefish-story.png" alt="Hughie Stonefish headshot and illustration"></a>
-                        <h2>Songwriter Hughie Stone Fish spotlights people of Syracuse in music video</h2>
+                    <div class="flex-row">
+                            <img src="images/hughie-square.png" alt="Hughie Stonefish headshot and illustration">
+                        <h3>Songwriter Hughie Stone Fish spotlights people of Syracuse in music video</h3>
+                        <p class="date">November 4, 2019</p>
+                        <p>Hughie Stone Fish wanted to give back to the city that inspired his musical career. He reached out to people in Syracuse — including city leaders, restaurant owners and dancers — with the goal of highlighting their contributions to the community.</p>
+                        <a href="http://dailyorange.com/2019/11/songwriter-hughie-stone-fish-spotlights-people-syracuse-music-video/" target="_blank"><button type="button" class="button">Read More.</button></a>
                     </div>
                 </div>
             </section>
 
-            <section>
-            <h2>Other Works</h2>
-            <dl>
-                <dt><a href="http://dailyorange.com/2019/09/eden-new-farm-table-restaurant-cooks-food-wood-fire/">"Eden, new farm-to-table restaurant, cooks food over wood fire"</a></dt>
-                <dt><a href="http://dailyorange.com/2019/08/love-restaurant-changes-menu-somali-taste/">"With Love, Restaurant changes menu for a Somali taste"</a></dt>
-                <dt><a href="http://dailyorange.com/2019/07/salt-city-dance-festival-showcases-syracuses-dance-community/">"Salt City Dance Festival showcases Syracuse's dance community"</a></dt>
-            </dl>
+            <section style="padding:20px;">
+            <div class="flex-container-more">
+                <div class="feature" style="padding-top:50px;">
+                    <h3>Eden, new farm-to-table restaurant, cooks food over wood fire</h3>
+                    <p class="date">September 10, 2019</p>
+                        <p>Eden, a new restaurant in Hanover Square, changes their menu daily to reflect the locally sourced food they receive from farmers or farmers markets each day.</p>
+                        <a href="http://dailyorange.com/2019/09/eden-new-farm-table-restaurant-cooks-food-wood-fire/" target="_blank"><button type="button" class="button">Read More.</button>
+                    <hr class="hr-portfolio"></a>
+                </div>
+                <div class="feature">
+                    <h3>With Love, Restaurant changes menu for a Somali taste</h3>
+                    <p class="date">August 26, 2019</p>
+                        <p>Sangabo Abdi’s dream was to open her own restaurant, and With Love, Restaurant is helping her dream come true.</p>
+                        <a href="http://dailyorange.com/2019/08/love-restaurant-changes-menu-somali-taste/" target="_blank"><button type="button" class="button">Read More.</button>
+                    <hr class="hr-portfolio"></a>
+                </div>
+                <div class="feature" style="margin-bottom:100px;">
+                    <h3>Salt City Dance Festival showcases Syracuse's dance community</h3>
+                    <p class="date">July 26, 2019</p>
+                        <p>The Salt City Dance Festival will debut this weekend, providing Syracuse adult dancers with an array of classes including belly dancing and partner acrobatics.</p>
+                        <a href="http://dailyorange.com/2019/07/salt-city-dance-festival-showcases-syracuses-dance-community/" target="_blank"><button type="button" class="button">Read More.</button>
+                    <hr class="hr-portfolio"></a>
+                </div>
+            </div>
             </section>
-
+<!--I'm planning on adding a footer section.-->
         </main>
-        <footer>
-            <p>Contact information: <a href="mailto:icbartli@syr.edu">icbartli@syr.edu</a>.</p>
-        </footer>
     </body>
 </html>
