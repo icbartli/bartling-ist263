@@ -1,0 +1,217 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*navigation menu*/
+.nav-all {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding: 0;
+    top: 0;
+}
+
+nav > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/*navigation hover*/
+nav a:hover {
+    color: black;
+    background-color: #6bcdb2;
+}
+
+/*headers + text format*/
+h1 {
+    font-weight: 700;
+    color: #6bcdb2;
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h3.resume {
+    color: #6bcdb2;
+    font-size: 25px;
+}
+
+        .section-head {
+            color: #6bcdb2;
+        }
+
+p {
+    font-weight: 300;
+    font-size-adjust: inherit;
+    line-height: 22px;
+}
+
+.header {
+    margin-left: 10%;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.heading-a {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*lists*/
+ul.a {
+    list-style: none;
+    line-height: 22px;
+}
+
+/*--Prof. Talley: I still don't fully understand how to change the color of a bullet point, but this is what w3schools recommended. I'm not sure what the "::" is.--*/
+ul li::before {
+    content: "\2022";
+    color: #6bcdb2;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+/*buttons*/
+.button {
+    background-color: #a32035;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: #6bcdb2;
+    border-width: 1px;
+}
+
+.home-button {
+    background-color: #a32035;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: #6bcdb2;
+    border-width: 1px;
+}
+
+/*portfolio featured posts*/
+.feature {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.hr-portfolio {
+    margin-top: 60px;
+    border: 1px solid #abb1bd;
+}
+
+.resume {
+    margin: 0;
+}
+
+/*links*/
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: paleturquoise;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/*layout structure*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 7em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: space-between;
+}
+
+.flex-container-more {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: space-between;
+}
+
+.flex-row {
+    width: 100%;
+    padding: 20px;
+}
+
+.flex-row-resume {
+    width: 100%;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+/*image format*/
+.headshot {
+    max-width: 100%;
+    max-height: auto;
+    flex-shrink: 0;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
