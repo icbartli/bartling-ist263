@@ -1,60 +1,67 @@
 <!doctype html>
 <html lang="en">
+    
     <head>
         <title>Izzy Bartling</title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     </head>
-    <body>
 
+    <body>
         <header>
-            <nav>
-                <a href="index-homepage.html">Home</a>
-                <a href="index-resume.html">Resume</a>
-                <a href="index-portfolio.html">Portfolio</a>
-                <a href="">Contact Me</a>
+            <nav class="nav-all">
+                <a href="index-homepage.html">Home.</a>
+                <a href="index-resume.html">Resume.</a>
+                <a href="index-portfolio.html">Portfolio.</a>
+                <a href="">Contact Me.</a>
             </nav>
-            <p>Hi —</p>
-            <h1>I'm Izzy Bartling</h1>
         </header>
 
         <main>
-            <section>
-                <p>As a dynamic magazine major at Syracuse University and a passionate student journalist, I draw upon my skills in reporting, writing and copyediting to contribute quality content to a variety of campus-based publications. My areas of interest include publishing, magazines, web design and digital marketing.</p>
-
-                <button type="button">Learn More</button>
-            </section>
-            <section>
-                <!--I will define the dimensions of all the photos on this page in CSS-->
-                <img src="images/head-shot-izzy.JPG" alt="Izzy's Headshot">
-            </section>
-        
-            <hr>
-
-            <section>
-            <h2>Check out my most recent work:</h2>
-                <div>
-                    <div>
-                        <a href="http://dailyorange.com/2020/02/jazz-artists-perform-share-perspectives-genre/">
-                            <img src="images/jazz-panel.png" alt="Syracuse jazz musicians"></a>
-                        <h3>"Jazz artists perform, share perspectives on the genre"</h3>
-                    </div>
-                    <div>
-                        <a href="https://www.suglobalists.com/articles/2020/2/17/study-abroad-uncertainty">
-                            <img src="images/uncertain-times-study-abroad.png" alt="Girl in the sky illustration"></a>
-                        <h3>"Braving a world of uncertainty abroad"</h3>
-                    </div>
-                    <div>
-                        <a href="http://dailyorange.com/2020/01/olivia-chindamo-jazz-vocalist-australia-will-headline-jazzfest-2020/">
-                            <img src="images/jazzfest-2020.png" alt="jazz musicians illustration"></a>
-                        <h3>"Olivia Chindamo, jazz vocalist from Australia, will headline JazzFest 2020"</h3>
-                    </div>
+            <section class="flex-container top-margin">
+                <div class="flex-row" style="align-self: center">
+                    <p>Hi —</p>
+                    <h1>I'm Izzy Bartling.</h1>
+                    <p>As a dynamic magazine major at Syracuse University and a passionate student journalist, I draw upon my skills in reporting, writing and copyediting to contribute quality content to a variety of campus-based publications. My areas of interest include publishing, magazines, web design and digital marketing.</p>
+                    <a href="index-resume.html"><button type="button" class="home-button">Learn More.</button></a>
+                </div>
+                <div class="flex-row">
+                    <img class="headshot" src="images/izzy-headshot-square.png" alt="Izzy's Headshot">
                 </div>
             </section>
+        
+            <br>
 
+            <section>
+            <div>
+                <h2 class="header section-head" style="padding:20px;">Recent Bylines.</h2>
+            </div>
+
+            <div class="flex-container">
+                <div class="flex-row">
+                        <img src="images/jazz-panel-square.png" alt="Syracuse jazz musicians">
+                    <h3>Jazz Artists Perform, Share Perspectives on the Genre</h3>
+                    <p class="date">February 25, 2020</p>
+                    <p>In a master class Monday, two jazz musicians said the genre of music was often misunderstood, but carried a deep history and flexible meaning.</p>
+                    <a href="http://dailyorange.com/2020/02/jazz-artists-perform-share-perspectives-genre/" target="_blank"><button type="button" class="button">Read More.</button></a>
+                </div>
+                <div class="flex-row">
+                        <img src="images/study-abroad-square.png" alt="Girl in the sky illustration">
+                    <h3>Braving a World of Uncertainty Abroad</h3>
+                    <p class="date">February 17, 2020</p>
+                    <p>In a time of escalating global uncertainty regarding health, safety and politics, students have become increasingly uneasy about their plans to study abroad. However, many students from Syracuse University decided to brave the storm and experience this unrest for themselves while studying abroad last semester.</p>
+                    <a href="https://www.suglobalists.com/articles/2020/2/17/study-abroad-uncertainty" target="_blank"><button type="button" class="button">Read More.</button></a>
+                </div>
+                <div class="flex-row" style="margin-bottom:100px;">
+                        <img src="images/jazzfest-square.png" alt="jazz musicians illustration">
+                    <h3>Olivia Chindamo, Jazz Vocalist from Australia, Will Headline JazzFest 2020</h3>
+                    <p class="date">January 22, 2020</p>
+                    <p>Acoustic swing, cabaret and funk melodies will fill the numerous rooms and corridors of Mohegan Manor, a historic, multi-story building in Baldwinsville, New York on Sunday, Jan. 26.</p>
+                    <a href="http://dailyorange.com/2020/01/olivia-chindamo-jazz-vocalist-australia-will-headline-jazzfest-2020/" target="_blank"><button type="button" class="button">Read More.</button></a>
+                </div>
+            </div>
+            </section>
+<!--I'm planning on adding a footer section.-->
         </main>
-
-        <footer>
-            <p>Contact information: <a href="mailto:icbartli@syr.edu">icbartli@syr.edu</a>.</p>
-        </footer>
     </body>
 </html>
