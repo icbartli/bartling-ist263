@@ -2,96 +2,118 @@
 <html lang="en">
     <head>
         <title>Izzy's Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
     <body>
         <main>
             <header>
-                <nav class="nav-all">
-                    <a href="index-homepage.html">Home.</a>
-                    <a href="index-resume.html">Resume.</a>
-                    <a href="index-portfolio.html">Portfolio.</a>
-                    <a href="">Contact Me.</a>
-                </nav>
+                <nav class="navbar navbar-expand-sm justify-content-center">
+                    <ul class="navbar-nav">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index-homepage.html">Home.<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index-resume.html">Resume.</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index-portfolio.html">Portfolio.</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contact Me.</a>
+                      </li>
+                    </ul>
+              </nav>
             </header>
-            
-            <section>
-            <h1 class="flex-container" style="padding:20px;">Izzy's Collection of Work.</h1>
-                <div class="flex-container">
-                    <div class="flex-row">
-                        <img src="images/jazz-panel-square.png" alt="Syracuse jazz musicians">
-                        <h3>Jazz artists perform, share perspectives on the genre</h3>
-                        <p class="date">February 25, 2020</p>
-                        <p>In a master class Monday, two jazz musicians said the genre of music was often misunderstood, but carried a deep history and flexible meaning.</p>
-                        <a href="http://dailyorange.com/2020/02/jazz-artists-perform-share-perspectives-genre/" target="_blank"><button type="button" class="button">Read More.</button></a>
-                    </div>
-                    <div class="flex-row">
-                            <img src="images/study-abroad-square.png" alt="Girl in the sky illustration">
-                        <h3>Braving A World of Uncertainty Abroad</h3>
-                        <p class="date">February 17, 2020</p>
-                        <p>In a time of escalating global uncertainty regarding health, safety and politics, students have become increasingly uneasy about their plans to study abroad. However, many students from Syracuse University decided to brave the storm and experience this unrest for themselves while studying abroad last semester.</p>
-                        <a href="https://www.suglobalists.com/articles/2020/2/17/study-abroad-uncertainty?rq=izzy" target="_blank"><button type="button" class="button">Read More.</button></a>
-                    </div>
-                    <div class="flex-row">
-                        <img src="images/warnock-square.png" alt="Raphael Warnock speaking">
-                        <h3>Unity, Equity and Heroes with Wings</h3>
-                        <p class="date">January 29, 2020</p>
-                        <p>Dr. King’s voice reverberated throughout the Carrier Dome as the community gathered for the 35th Annual Celebration of Dr. Martin Luther King Jr., bringing the audience back to his 1965 speech at Sims Hall.</p>
-                        <a href="https://www.suglobalists.com/articles/2020/unity-equity-and-heroes-with-wings?rq=izzy" target="_blank"><button type="button" class="button">Read More.</button></a>
+
+            <div class="flex-container heading-a top-margin" style="flex-direction: column;">
+                <div>
+                    <h1 style="margin:20px;">Izzy's Collection of Work.</h1>
+                    <p>Starting from my most recent work, below is a collection of the stories I've written for two student-run publications on campus: Globalists and The Daily Orange.</p>
+                </div>
+            </div>
+
+            <div class="flex-container xs-column s-column l-column" style="margin-bottom:20px;">
+                <div class="flex-row">
+                    <img class="img-fluid rounded" src="images/parasite-square.png" alt="Parasite Movie Illustration">
+                </div>
+                <div class="card featured-post flex-row" style="padding:0;">
+                    <div class="card-body" style="align-self: center">
+                      <h5 class="card-title">Reel Talk: A beginner’s guide to foreign films</h5>
+                      <p class="card-text">April 3, 2020</p>
+                      <p class="card-text">Grab some popcorn, and dive into the world of foreign films with these five movies.</p>
+                      <a href="https://www.suglobalists.com/articles/2020/4/3/reel-talk/a-beginners-guide-to-foreign-films" target="_blank"><button type="button" class="btn btn-light">Read More.</button></a>
                     </div>
                 </div>
-                <div class="flex-container">
-                    <div class="flex-row">
-                            <img src="images/jazzfest-square.png" alt="jazz musicians illustration">
-                        <h3>Olivia Chindamo, jazz vocalist from Australia, will headline JazzFest 2020</h3>
-                        <p class="date">January 22, 2020</p>
-                        <p>Acoustic swing, cabaret and funk melodies will fill the numerous rooms and corridors of Mohegan Manor, a historic, multi-story building in Baldwinsville, New York on Sunday, Jan. 26.</p>
-                        <a href="http://dailyorange.com/2020/01/olivia-chindamo-jazz-vocalist-australia-will-headline-jazzfest-2020/" target="_blank"><button type="button" class="button">Read More.</button></a>
+            </div>
+
+            <section>
+                <div class="flex-container xs-column s-column l-column">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="images/jazz-panel-square.png" alt="Syracuse jazz musicians">
+                        <div class="card-body">
+                          <h5 class="card-title">Jazz Artists Perform, Share Perspectives on the Genre</h5>
+                          <p class="card-text">February 25, 2020</p>
+                          <p class="card-text">In a master class Monday, two jazz musicians said the genre of music was often misunderstood, but carried a deep history and flexible meaning.</p>
+                          <a href="http://dailyorange.com/2020/02/jazz-artists-perform-share-perspectives-genre/" target="_blank"><button type="button" class="btn btn-light">Read More.</button></a>
+                        </div>
                     </div>
-                    <div class="flex-row">
-                            <img src="images/beauty-square.png" alt="Beauty and the Beast performance photo">
-                        <h3>Syracuse Stage brings 'Disney's Beauty and the Beast' to life</h3>
-                        <p class="date">December 1, 2019</p>
-                        <p>Stephanie Craven was 9 years old when she discovered “Beauty and the Beast.” As a child, she would cry to her mother about not being blonde-haired and blue-eyed to fit the princess standard.</p>
-                        <a href="http://dailyorange.com/2019/12/syracuse-stage-brings-disneys-beauty-beast-life" target="_blank"><button type="button" class="button">Read More.</button></a>  
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="images/study-abroad-square.png" alt="Girl in the sky illustration">
+                        <div class="card-body">
+                          <h5 class="card-title">Braving a World of Uncertainty Abroad</h5>
+                          <p class="card-text">February 17, 2020</p>
+                          <p class="card-text">In a time of escalating global uncertainty regarding health, safety and politics, students have become increasingly uneasy about their plans to study abroad.</p>
+                          <a href="http://dailyorange.com/2020/01/olivia-chindamo-jazz-vocalist-australia-will-headline-jazzfest-2020/" target="_blank"><button type="button" class="btn btn-light">Read More.</button></a>
+                        </div>
                     </div>
-                    <div class="flex-row">
-                            <img src="images/hughie-square.png" alt="Hughie Stonefish headshot and illustration">
-                        <h3>Songwriter Hughie Stone Fish spotlights people of Syracuse in music video</h3>
-                        <p class="date">November 4, 2019</p>
-                        <p>Hughie Stone Fish wanted to give back to the city that inspired his musical career. He reached out to people in Syracuse — including city leaders, restaurant owners and dancers — with the goal of highlighting their contributions to the community.</p>
-                        <a href="http://dailyorange.com/2019/11/songwriter-hughie-stone-fish-spotlights-people-syracuse-music-video/" target="_blank"><button type="button" class="button">Read More.</button></a>
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="images/warnock-square.png" alt="Raphael Warnock speaking">
+                        <div class="card-body">
+                          <h5 class="card-title">Unity, Equity and Heroes with Wings</h5>
+                          <p class="card-text">January 29, 2020</p>
+                          <p class="card-text">Dr. King’s voice reverberated throughout the Carrier Dome as the community gathered for the 35th Annual Celebration of Dr. Martin Luther King Jr.</p>
+                          <a href="https://www.suglobalists.com/articles/2020/unity-equity-and-heroes-with-wings?rq=izzy" target="_blank"><button type="button" class="btn btn-light">Read More.</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-container xs-column s-column l-column">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="images/jazzfest-square.png" alt="jazz musicians illustration">
+                        <div class="card-body">
+                          <h5 class="card-title">Olivia Chindamo, jazz vocalist from Australia, will headline JazzFest 2020</h5>
+                          <p class="card-text">January 22, 2020</p>
+                          <p class="card-text">Acoustic swing, cabaret and funk melodies filled the numerous rooms and corridors of Mohegan Manor on Sunday, Jan. 26.</p>
+                          <a href="http://dailyorange.com/2020/01/olivia-chindamo-jazz-vocalist-australia-will-headline-jazzfest-2020/" target="_blank"><button type="button" class="btn btn-light">Read More.</button></a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="images/beauty-square.png" alt="Beauty and the Beast performance photo">
+                        <div class="card-body">
+                          <h5 class="card-title">Syracuse Stage brings 'Disney's Beauty and the Beast' to life</h5>
+                          <p class="card-text">December 1, 2019</p>
+                          <p class="card-text">Stephanie Craven was 9 years old when she discovered “Beauty and the Beast. As a child, she would cry to her mother about not being blonde-haired and blue-eyed to fit the princess standard.</p>
+                          <a href="http://dailyorange.com/2019/12/syracuse-stage-brings-disneys-beauty-beast-life" target="_blank"><button type="button" class="btn btn-light">Read More.</button></a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="images/hughie-square.png" alt="Hughie Stonefish headshot and illustration">
+                        <div class="card-body">
+                          <h5 class="card-title">Songwriter Hughie Stone Fish spotlights people of Syracuse in music video</h5>
+                          <p class="card-text">November 4, 2019</p>
+                          <p class="card-text">Hughie Stone Fish wanted to give back to the city that inspired his musical career.</p>
+                          <a href="https://www.suglobalists.com/articles/2020/unity-equity-and-heroes-with-wings?rq=izzy" target="_blank"><button type="button" class="btn btn-light">Read More.</button></a>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section style="padding:20px;">
-            <div class="flex-container-more">
-                <div class="feature" style="padding-top:50px;">
-                    <h3>Eden, new farm-to-table restaurant, cooks food over wood fire</h3>
-                    <p class="date">September 10, 2019</p>
-                        <p>Eden, a new restaurant in Hanover Square, changes their menu daily to reflect the locally sourced food they receive from farmers or farmers markets each day.</p>
-                        <a href="http://dailyorange.com/2019/09/eden-new-farm-table-restaurant-cooks-food-wood-fire/" target="_blank"><button type="button" class="button">Read More.</button>
-                    <hr class="hr-portfolio"></a>
-                </div>
-                <div class="feature">
-                    <h3>With Love, Restaurant changes menu for a Somali taste</h3>
-                    <p class="date">August 26, 2019</p>
-                        <p>Sangabo Abdi’s dream was to open her own restaurant, and With Love, Restaurant is helping her dream come true.</p>
-                        <a href="http://dailyorange.com/2019/08/love-restaurant-changes-menu-somali-taste/" target="_blank"><button type="button" class="button">Read More.</button>
-                    <hr class="hr-portfolio"></a>
-                </div>
-                <div class="feature" style="margin-bottom:100px;">
-                    <h3>Salt City Dance Festival showcases Syracuse's dance community</h3>
-                    <p class="date">July 26, 2019</p>
-                        <p>The Salt City Dance Festival will debut this weekend, providing Syracuse adult dancers with an array of classes including belly dancing and partner acrobatics.</p>
-                        <a href="http://dailyorange.com/2019/07/salt-city-dance-festival-showcases-syracuses-dance-community/" target="_blank"><button type="button" class="button">Read More.</button>
-                    <hr class="hr-portfolio"></a>
-                </div>
-            </div>
-            </section>
-<!--I'm planning on adding a footer section.-->
         </main>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
