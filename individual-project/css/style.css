@@ -72,7 +72,6 @@ ul.a {
     line-height: 22px;
 }
 
-/*--Prof. Talley: I still don't fully understand how to change the color of a bullet point, but this is what w3schools recommended. I'm not sure what the "::" is.--*/
 ul.resume li::before {
     content: "\2022";
     color: #6bcdb2;
