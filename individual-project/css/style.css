@@ -4,7 +4,7 @@
 
 /*navigation bar*/
 .bg-dark {
-    background-color: #a32035;
+    background-color: #a32035 !important;
 }
 
 /*navigation hover*/
