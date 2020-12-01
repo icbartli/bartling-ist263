@@ -5,6 +5,9 @@
 /*navigation bar*/
 .bg-dark {
     background-color: #ffffff !important;
+}
+
+.nav-bar .navbar-nav .nav-link {
     color:#000000;
 }
 
