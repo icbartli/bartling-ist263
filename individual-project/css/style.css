@@ -13,9 +13,13 @@
     background-color: white;
 }
 
+.bg-dark {
+    background-color:#ffffff;
+    color:#000000;
+
 /*navigation hover*/
 nav a:hover {
-    color: black;
+    color:#000000;
     background-color: #6bcdb2;
 }
 
