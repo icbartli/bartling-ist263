@@ -2,20 +2,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*navigation menu*/
-.navbar {
-    display: flex;
-    margin-bottom: 0;
-    padding: 0;
-    top: 0;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: white;
-}
-
-.bg-dark {
-    background-color:#ffffff;
-    color:#000000;
+/*navigation bar*/
 
 /*navigation hover*/
 nav a:hover {
